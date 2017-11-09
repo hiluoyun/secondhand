@@ -1,0 +1,60 @@
+@font-face {
+    font-family: fonts;
+    src: url(../fonts/Candara.ttf);
+}
+body {
+	font-family: fonts;
+}
+.sidebar-title-header {
+	font-size: 20px;
+	color: white;
+}
+.size-header {
+	font-size: 20px !important;
+}
+.thumbnail-wrapper {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.content {
+	margin-top: 30px;
+}
+.header-of-page {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.content-item {
+	background-color: white;
+	width: 100%;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	min-height: 200px;
+}
+li {
+	cursor: pointer;
+	cursor: hand;
+}
+.card-description {
+	margin: 0 auto;
+}
+.update-profile {
+	position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+}
+.form-control-update {
+	text-align: center !important;
+}
+.by-search {
+	margin-top: 10px !important;
+}
+.red-color {
+	color: red;
+}
